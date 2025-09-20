@@ -1,0 +1,14 @@
+# data.yaml for YOLOv8 segmentation
+path: datasets  # base dataset directory
+train: images/train
+val: images/val
+
+# number of classes
+nc: 4
+
+# class names
+names:
+  0: Cylindrotheca
+  1: Rhizosolenia
+  2: Ciliate_mix
+  3: Leptocylindrus
